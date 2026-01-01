@@ -11,6 +11,7 @@ import {CriarPensamentoComponent} from "./componentes/pensamentos/criar-pensamen
 import {ListarPensamentoComponent} from "./componentes/pensamentos/listar-pensamento/listar-pensamento.component";
 import {PensamentoComponent} from "./componentes/pensamentos/pensamento/pensamento.component";
 import { ExcluirPensamentoComponent } from './componentes/pensamentos/excluir-pensamento/excluir-pensamento.component';
+import { EditarPensamentoComponent } from './componentes/pensamentos/editar-pensamento/editar-pensamento.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { ExcluirPensamentoComponent } from './componentes/pensamentos/excluir-pe
     ListarPensamentoComponent,
     CriarPensamentoComponent,
     ExcluirPensamentoComponent,
+    EditarPensamentoComponent,
   ],
   imports: [
     BrowserModule,
